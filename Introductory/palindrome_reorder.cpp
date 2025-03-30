@@ -58,7 +58,9 @@ template <class T, class V> void _print(map <T, V> v) {cerr << "[ "; for (auto i
 /*************************** MY CP TAMPLATE END HERE *************************/
 void solution(){
   string s; 
-  cin>>s; 
+  cin>>s;  
+
+  
 
   int n = s.length(); 
   vector<int>count(26,0); 
@@ -70,7 +72,9 @@ void solution(){
     if(count[i]%2!=0) { 
       odd++;
     } 
-  }  
+  }   
+
+
 //AAAACACBA
   if(odd>1) { 
     cout<<"NO SOLUTION"<<"\n";  
