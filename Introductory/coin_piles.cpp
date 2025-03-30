@@ -23,7 +23,10 @@ using namespace std;
 #define sort_all(x) sort(x.begin(),x.end())
 #define reverse_all(x) reverse(x.begin(),x.end())
 #define py cout<<"YES"<<"\n"
-#define pn cout<<"NO"<<"\n"
+#define pn cout<<"NO"<<"\n" 
+
+
+
 
 typedef long long ll;
 typedef unsigned long long ull;
@@ -71,7 +74,9 @@ void solution(){
 
 } 
 
-int main() {
+int main() { 
+
+    
 #ifndef ONLINE_JUDGE 
 freopen("Error1.txt", "w", stderr); 
 freopen("input.txt", "r", stdin);
